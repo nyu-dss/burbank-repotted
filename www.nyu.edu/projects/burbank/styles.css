@@ -1,0 +1,123 @@
+body	{
+		border:0px;
+		margin: 0px 0px 0px 0px;
+		background:white url(back2.jpg) repeat-y 50% 0;
+		/* background image partially inspired by simplebits.com */
+		/* text-align: center; */
+		}
+
+a { color:black; }
+a:hover { color:#963; text-decoration:none; font-variant:normal; font-style: italic; }
+
+#top {
+	top:0;
+	left:0;
+	/* border:1px solid pink; */
+	height: 90px;
+	width: 626px;
+	margin: 0 auto;
+	padding-left: 130px; /* IE/Mac problem */
+	background: url(back-top.jpg) top left no-repeat;
+	text-align: center;
+}
+
+#wrapper {
+	width: 756px;
+	margin: 0 auto;
+	/* border:1px solid green; */
+	position: relative;
+	background:white url(back2.jpg) repeat-y 50% 0;
+}
+
+/* show back img here only for Mac/IE 
+#wrapper {
+	background:transparent;
+}
+/* end hide */
+
+#left {
+            position:absolute;
+            top:0;
+            left:0;
+            margin-top: 0;
+            margin-left: 25px;
+            width: 115px;
+            /* border:1px solid red; */
+            }
+#left ul { font-variant:small-caps; padding:0; margin:0; list-style-type:none; }
+#left a { text-decoration: none; color:#000; background: url(line.jpg) no-repeat 0 50%; padding-left:15px;}
+#left a:hover { text-decoration: none; color:#963; font-variant:normal; font-style: italic; background-image: url(lineB.jpg); }
+#left a#current { color:#963; background-image: url(lineB.jpg);}
+
+#right {
+            /* position:relative; */
+            top:0;
+            left:0;
+            margin-left: 165px;
+            font-family: Georgia, Times, serif;
+            /* border:1px solid blue; */
+            width: 565px;
+            text-align: justify;
+            }
+
+
+/* paragraph styles */
+	
+p { 
+	font-variant:small-caps;
+}
+h1 { 
+	margin: 0; 
+	padding-top: 25px; 
+	text-transform:uppercase; 
+	color: #333;
+	font-size:30px;
+	/* border-bottom:1px solid #666; */
+}
+h3 { 
+	font-weight:normal;
+	text-transform:uppercase; 
+	color:#963;
+}
+
+ .imgright
+ {
+ width:300px;
+ float: right;
+ margin: 0 0 10px 10px;
+ background-color: #fec;
+ padding: 10px;
+ border: 1px solid #CCC;
+ font-size: 10px;
+ text-align: center;
+ color:#666;
+ }
+
+ div.imgright img
+ {
+ border: 1px solid #666;
+ margin-bottom: 5px;
+ }
+ 
+  .img
+ {
+ width:500px;
+ margin-right:auto;
+ margin-left:auto;
+ background-color: #fec;
+ padding: 15px 10px 10px 10px;
+ border: 1px solid #CCC;
+ font-size: 10px;
+ text-align: center;
+ color:#666;
+ }
+
+ div.img img
+ {
+ border: 1px solid #666;
+ margin-bottom: 5px;
+ }
+ 
+ .links a {margin-left:30px; }
+ 
+ #bottom { font-size:10px; text-align:center; font-variant:normal; color:#666; }
